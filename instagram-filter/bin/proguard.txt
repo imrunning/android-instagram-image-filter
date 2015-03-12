@@ -1,0 +1,18 @@
+# view res/layout/activity_camera.xml #generated:6
+-keep class android.opengl.GLSurfaceView { <init>(...); }
+
+# view res/layout/activity_gallery.xml #generated:12
+-keep class jp.co.cyberagent.android.gpuimage.GPUImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class jp.co.cyberagent.android.gpuimage.sample.activity.ActivityCamera { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class jp.co.cyberagent.android.gpuimage.sample.activity.ActivityGallery { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class jp.co.cyberagent.android.gpuimage.sample.activity.ActivityMain { <init>(...); }
+
+# view res/layout/item_image.xml #generated:8
+-keep class jp.co.cyberagent.android.gpuimage.sample.utils.RoundImageView { <init>(...); }
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 无效，暂未使用 -->
+    <!--
+    <declare-styleable name="CustomRadioButtonStyle">
+        <attr name="popup_radio" format="reference" />
+    </declare-styleable>
+    -->
+    <declare-styleable name="roundedimageview">
+        <attr name="border_outside_color" format="color" />
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+    </declare-styleable>
+
+</resources>
