@@ -6,3 +6,4 @@
 
 
 修改自： https://github.com/CyberAgent/android-gpuimage
+         https://github.com/sangmingming/android-instagram-filter
