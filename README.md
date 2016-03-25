@@ -1,5 +1,5 @@
 # android-instagram-filter
-这是一个eclipse项目
+这是一个eclipse项目   
 模仿instagram的滤镜（和in的滤镜类似）
 
 
