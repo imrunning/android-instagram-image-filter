@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "22.0.1"
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "jp.co.cyberagent.android.gpuimage.sample"
+        minSdkVersion 9
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':lib_gpuimage')
+    compile 'com.android.support:support-v4:19.1.0'
+}

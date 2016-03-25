@@ -1,0 +1,61 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From instagram-filter:
+* ic_launcher-web.png
+* pom.xml
+From lib_gpuimage:
+* android-artifacts.gradle
+* build.gradle
+* central-publish.gradle
+* gradle.properties
+* jni\
+* jni\yuv-decoder.c
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In lib_gpuimage:
+* AndroidManifest.xml => lib_gpuimage\src\main\AndroidManifest.xml
+* src\ => lib_gpuimage\src\main\java\
+In instagram-filter:
+* AndroidManifest.xml => instagramfilter\src\main\AndroidManifest.xml
+* proguard-project.txt => instagramfilter\proguard-project.txt
+* res\ => instagramfilter\src\main\res\
+* src\ => instagramfilter\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
